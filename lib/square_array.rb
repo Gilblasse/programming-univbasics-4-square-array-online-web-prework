@@ -7,5 +7,5 @@ def square_array(array)
     new_arry << product
     count+=1
   end
-  puts new_arry
+  new_arry
 end
