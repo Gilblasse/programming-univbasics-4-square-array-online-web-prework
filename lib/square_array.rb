@@ -3,6 +3,6 @@ def square_array(array)
   new_arry = []
   
   while array.size > 0 do
-    new_arry << array[count] * array[count]
+    new_arry << array[count].to_i * array[count].to_i
     count+=1
 end
